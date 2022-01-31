@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Shipping Details</title>
+        <link rel="stylesheet" href="review.css">
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+        <link rel="shortcut icon" href="image/favicon_io/android-chrome-512x512.png">
+        <link rel="stylesheet" href="css/Shipping.css">
+    </head>
+
+
+
+    <body>
+      
+        <header>
+
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fas fa-bars"></label>
+        
+            <a href="#" class="logo">S.W.A.N</a>
+    
+        
+            <nav class="navbar">
+                <a href="index.html">Homepage</a>
+                <a href="about.html">about</a>
+                <a href="product.html">products</a>
+                <a href="review.html">review</a>
+                <a href="contact.html">contact</a>
+                <a href="team.html">Our Team</a>
+        
+            </nav>
+        
+            <div class="icons">
+                <a href="shipping.html" class="fas fa-shopping-cart"></a>
+                <a href="login.html"  target="_blank" class="fas fa-user"></a>
+            </div>
+        
+        </header>
+
+    
+        
+        <form id="shipping" class="box" onsubmit= "confirmation();">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <h1> Shipping Details </h1>
+            <input type="text" name="" placeholder="Enter Full Name" id="name" required>
+            <input type="text" name="" placeholder="Enter your number phone" id="phone number" required>
+            <input type="text" name="" placeholder="Enter address" id="address">
+    
+             
+        <div class="select">
+        <select name="product" >
+            <option value ="om">Choose the product</option>
+            <option value ="none">Baptisia</option>
+            <option value ="none">Malva</option>
+            <option value ="none">Custom</option>
+       </select>
+        </div>
+
+        <form action="/action_page.php">
+            <input type="number" id="quantity" name="quantity" placeholder="Enter quantity" min="0" max="100">
+            <input type="submit">
+        </form>
+        
+       
+    
+    </form> 
+    
+</div>
+
+
+    <script>
+        function confirmation(){
+
+            alert("Just wanted to say thank you for your purchase. We’re so lucky to have customers like you! We will contact you later.");
+        }
+    </script>
+        
+      
+        <section class="footer">
+
+            <div class="credit"> created by <span> Swan company </span> | all rights reserved </div>
+        
+        </section>
+
+    </body>
+</html>

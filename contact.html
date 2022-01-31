@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="UTF-8">
+        <title>Contact us</title>
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="shortcut icon" href="images/android-chrome-512x512.png">
+
+
+    </head>
+
+    <body>
+
+        <header>
+
+            <input type="checkbox" name="" id="toggler">
+            <label for="toggler" class="fas fa-bars"></label>
+        
+            <a href="#" class="logo">S.W.A.N</a>
+    
+        
+            <nav class="navbar">
+                <a href="index.html">Homepage</a>
+                <a href="about.html">about</a>
+                <a href="product.html">products</a>
+                <a href="review.html">review</a>
+                <a href="contact.html">contact</a>
+                <a href="team.html">Our Team</a>
+        
+            </nav>
+        
+            <div class="icons">
+                <a href="shipping.html" class="fas fa-shopping-cart"></a>
+                <a href="login.html"  target="_blank" class="fas fa-user"></a>
+            </div>
+        
+        </header>
+
+        <body>
+            
+            <br>
+            <br>
+            <br>
+            <br>
+
+        <div class="container">
+           
+            <div class="square">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"></div>
+                        <div class="text"></div>
+                        <h3>Address</h3>
+                        <p>Cyberjaya, Selangor.</p>
+                    </div>
+                
+                <div class="box">
+                    <div class="icon">
+                        <div class="text">
+                            <h3>E-mail</h3>
+                            <br>
+                            <p>Swan_company@swan.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"></div>
+                    <div class="text"></div>
+                    <h3>Phone</h3>
+                    <br>
+                    <p>+60-123456789</p>
+                </div>
+                
+                <div class="box">
+                    <div class="icon"></div>
+                    <div class="text"></div>
+                    <h3>Location</h3>
+                    <br>
+                    <div style="width: 100%"><iframe width="250" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=200&amp;hl=en&amp;q=Cyberjaya,%20Selangor+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+                </div>
+            
+                </div> 
+                
+            </div>
+            
+                <div class="square">
+               
+                    <form  onsubmit="sendEmail()">
+                        <h3>GET IN TOUCH WITH OUR TEAM</h3>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <input type="email" id="email" placeholder="Email id" required>
+                        <input type="text" id="phone" placeholder="Phone no." required>
+                        <textarea  id="message" rows="4" placeholder="How can we help you?"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+               
+                </div>
+        </div>
+    
+    
+    
+       
+
+        <script>
+            function sendEmail(){
+
+                alert("Thank you for your message");
+            }
+        </script>
+        
+
+    </body>
+</html>

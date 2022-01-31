@@ -1,0 +1,199 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background: url("../images/flowerbg.jpg");
+    background-size: cover;
+}
+
+.box{
+    width:300px;
+    padding:30px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: rgba(255, 242, 242, 0.877);
+    text-align: center;
+}
+
+.box h1
+{
+    color: rgb(7, 7, 7);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box input [type="text"],.box input[type="text"]
+{
+
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;  
+  text-align: center;
+  border: 3px solid #0367fd;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  
+}
+
+.box input [type="text"]:focus,.box input[type="text"]:focus{
+
+    width: 270px;
+    border-color: chocolate;
+
+
+}
+
+.box input [type="text"],.box input[type="password"]
+{
+
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;  
+  text-align: center;
+  border: 3px solid #0367fd;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  
+}
+
+.box input [type="text"]:focus,.box input[type="password"]:focus{
+
+    width: 270px;
+    border-color: chocolate;
+
+
+}
+
+.box input[type="submit"]{
+
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;  
+    text-align: center;
+    border: 3px solid #ebe72f;
+    padding: 14px 35px;
+    outline: none;
+    color: rgb(17, 16, 16);
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+
+.box input[type="submit"]:hover{
+    background: rgb(218, 199, 37);
+}
+
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow:  0 0 20px 9px #fcf8fc;
+}
+
+.toggle-btn{
+
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+
+}
+
+#btn{
+
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+
+}
+
+.social-icons{
+
+    margin:30px auto;
+    text-align: center;
+
+}
+
+.social-icons img{
+
+    width: 30px; 
+    margin: 0 12px;
+    box-shadow: 0  0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+
+}
+
+.chech-box{
+
+    margin: 30px 10px 30px 0;
+
+}
+
+.span{
+
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+    font-family: sans-serif;
+
+}
+
+.input-field{
+
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px o;
+
+}
+
+.box input [type="email"],.box input[type="email"]
+{
+
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;  
+  text-align: center;
+  border: 3px solid #0367fd;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+  
+}
+
+.box input [type="email"]:focus,.box input[type="Email id"]:focus{
+
+    width: 270px;
+    border-color: chocolate;
+
+
+}
+
+
+
